@@ -15,5 +15,4 @@ exports.myFunction3 = function(params, callback) {
   var num = params.num;
   
     return callback({err: 'Num too large'}, {result: num});
-  callback(undefined, {result: num});
 };
